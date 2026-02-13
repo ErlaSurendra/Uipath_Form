@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Deploy') {
+            steps {
+                UiPathDeploy(
+                    createProcess: true,
+                    credentials: ExternalApp(
+                        accountForApp: 'surenwuosbeq',
+                        applicationId: '59bdc3ae-b882-462e-965b-8df199f07222',
+                        applicationScope: 'OR.Folders OR.Packages OR.Jobs',
+                        applicationSecret: 'uipath-client-secret',
+                        identityUrl: 'https://account.uipath.com'
+                    ),
+                    entryPointPaths: 'Main.xaml',
+                    folderName: 'Shared',
+                    orchestratorAddress: 'https://cloud.uipath.com/',
+                    orchestratorTenant: 'DefaultTenant',
+                    packagePath: 'output/*.nupkg',
+                    processName: 'UiPath_Test_Process',
+                    traceLevel: 'Information'
+                )
+            }
+        }
+
+    }
+}
