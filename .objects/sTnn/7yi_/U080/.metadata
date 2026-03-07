@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Rpa Challenge",
+  "Type": "Screen",
+  "Id": "U080XGsy8k-Han5icjhb7Q",
+  "Reference": "qQhfrkZ9GUOIgHnXrxUv_w/U080XGsy8k-Han5icjhb7Q",
+  "ParentRef": "qQhfrkZ9GUOIgHnXrxUv_w/7yi_twDPbkeeVTC5agC8tw",
+  "Created": "2026-03-07T17:54:40.9387173Z",
+  "Updated": "2026-03-07T17:54:40.9387173Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

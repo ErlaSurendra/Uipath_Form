@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TRfuQIuF8U2EpT-ETzckTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com" CVScreenId="9a49d800-aa5a-4bd9-be08-69b9f8704f70" CvTextArea="666, 265, 280, 96" CvTextArgument="Google" CvType="Text" DesignTimeRectangle="8, 241, 1600, 119" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="3327be10-9edc-473f-8948-7b9d841d5c1b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="464, 456, 688, 58" FuzzySelectorArgument="&lt;webctrl type='' tag='CENTER' class='' aaname='       ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Google Search    I&amp;apos;m Feeling CuriousI&amp;apos;m Feeling HungryI&amp;apos;m Feeling AdventurousI&amp;apos;m Feeling PlayfulI&amp;apos;m Feeling StellarI&amp;apos;m Feeling DoodleyI&amp;apos;m Feeling TrendyI&amp;apos;m Feeling ArtisticI&amp;apos;m Feeling FunnyI&amp;apos;m Feeling Mindful' /&gt;" Guid="be818999-ae7c-498e-85d6-7b9cc840bc18" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4144d8938152f9cdc21a75fc1d841724.jpg" xmlns="">0TreDTZwAMUyOHpcrvF3bOQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

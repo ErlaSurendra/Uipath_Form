@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QnRBbqHb5ECBwuOI9vyg5w" Reference="qQhfrkZ9GUOIgHnXrxUv_w/GdiJN4nWNE-B8D_BXJHsFg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="5447e1de-e164-4d6c-a400-d5f387ffb2af" CvTextArea="27, 197, 231, 37" CvTextArgument="RPA Challenge" CvType="Text" DesignTimeRectangle="8, 181, 249, 64" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' /&gt;" Guid="bfd49e66-8463-410e-b5fe-24ae5195800b" ScopeSelectorArgument="google.com" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="5447e1de-e164-4d6c-a400-d5f387ffb2af" CvTextArea="27, 259, 144, 25" CvTextArgument="Instructions" CvType="Text" DesignTimeRectangle="19, 244, 281, 56" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' Instructions ' tag='DIV' type='' class='col s12 m12 l9 ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Instructions' /&gt;" Guid="d34ed679-00bc-42c3-b0b1-61305e42762b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="30dff80c83667e920e287494af3d463b.jpg" xmlns="">0S_MwYE92GEyEdP42SD6e1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
