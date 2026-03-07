@@ -1,4 +1,4 @@
 ﻿AssetName,AssetType,Value,Description
-Azure_dev,String,uploaded,xyx
-Check,String,tryit,abc
-Response,String,success,efg
+Azure_dev,text,uploaded,xyx
+Check,text,tryit,abc
+Response,text,success,efg
